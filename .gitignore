@@ -1,0 +1,18 @@
+# Supabase CLI temp files
+supabase/.temp/
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log
+
+# Environment / secrets — NEVER commit these
+.env
+.env.local
+secrets.txt
+
+# The license generator contains your HMAC secret if pasted directly
+# Uncomment the line below if you paste the secret into the file instead of using env vars
+# generate-license.js
