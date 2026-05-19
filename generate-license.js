@@ -1,12 +1,12 @@
 const crypto = require('crypto');
 
-const HMAC_SECRET = process.env.LICENSE_HMAC_SECRET || 'PASTE_YOUR_SECRET_HERE';
+const HMAC_SECRET = process.env.LICENSE_HMAC_SECRET || '908102a11b0442cf91b6aac187bf4e70ad70f98bd5c5435283860ba07ab0f2c8';
 
 const CONFIG = {
-  customer_name:  'Test Organisation',
-  license_type:   'trial',
+  customer_name:  'TEST',
+  license_type:   'Standard',
   max_mailboxes:  5,
-  duration_days:  3,
+  duration_days:  1000,
 };
 
 function toBase64Url(str) {
